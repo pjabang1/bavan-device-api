@@ -15,3 +15,6 @@ sudo service redis_6379 start
 #firewall
 sudo ufw enable
 sudo ufw allow 8080
+
+#killing processes
+ps aux | grep php
