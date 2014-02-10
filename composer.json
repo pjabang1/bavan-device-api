@@ -1,6 +1,7 @@
 {
     "require": {
         "silex/silex": "~1.1",
+        "react/react": "0.3.*",
         "react/zmq": "0.2.*"
     }
 }
