@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . "../vendor/autoload.php";
+require_once __DIR__ . "/../vendor/autoload.php";
 $i = 0;
 
 $app = function ($request, $response) use (&$i) {
