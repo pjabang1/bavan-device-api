@@ -1,6 +1,7 @@
 {
     "require": {
-        "silex/silex": "~1.1",
+        "predis/predis": "dev-master",
+	"silex/silex": "~1.1",
         "cboden/Ratchet": "0.3.*",
         "react/react": "0.3.*",
         "react/zmq": "0.2.*"
