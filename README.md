@@ -11,3 +11,7 @@ sudo service redis_6379 start
 
 # supervisor confs
 /etc/supervisor/
+
+#firewall
+sudo ufw enable
+sudo ufw allow 8080
