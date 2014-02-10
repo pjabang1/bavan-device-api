@@ -18,5 +18,5 @@ $http = new React\Http\Server($socket);
 
 $http->on('request', $app);
 
-$socket->listen(1337);
+$socket->listen(8080);
 $loop->run();
