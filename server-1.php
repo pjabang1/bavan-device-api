@@ -19,4 +19,5 @@ $http = new React\Http\Server($socket);
 $http->on('request', $app);
 
 $socket->listen(8080);
+echo "starting server \n";
 $loop->run();
