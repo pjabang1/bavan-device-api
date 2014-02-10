@@ -15,6 +15,10 @@ sudo service redis_6379 start
 #firewall
 sudo ufw enable
 
+# Allow requests
+
+iptables -I INPUT -p tcp -m tcp --dport 8080 -j ACCEPT
+
 sudo ufw allow 8080
 
 #killing processes
