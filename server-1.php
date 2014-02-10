@@ -9,6 +9,7 @@ $app = function ($request, $response) use (&$i) {
     $headers = array('Content-Type' => 'text/plain');
 
     $response->writeHead(200, $headers);
+    var_dump($request);
     $response->end($text);
 };
 
